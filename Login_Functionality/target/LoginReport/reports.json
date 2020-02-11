@@ -1,0 +1,103 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-11T07:20:36.937Z",
+        "line": 5,
+        "name": "Successfull login with valid credentials",
+        "description": "",
+        "id": "login-action;successfull-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14815067800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigate to home page",
+            "match": {
+              "location": "Login_class.navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10901332400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "Login_class.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mercury",
+                  "mercury"
+                ]
+              },
+              {
+                "cells": [
+                  "Rick",
+                  "Rick123"
+                ]
+              },
+              {
+                "cells": [
+                  "Andrew",
+                  "Andrew123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201409700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Message login successfully",
+            "match": {
+              "location": "Login_class.message_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "Test Login Functionality",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "classpath:package1/Login_Action.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
